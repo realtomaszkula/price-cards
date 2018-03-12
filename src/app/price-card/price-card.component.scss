@@ -4,7 +4,6 @@
   transition: all 0.6s ease-out;
 }
 
-
 :host(.dimmed) {
   opacity: 0.5;
 }
@@ -12,3 +11,24 @@
 :host(.active) {
   transform: scale(1.1);
 }
+
+.container {
+  height: calc(100% - 16px);
+  padding: 8px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  background-color: white;
+  margin-bottom: 8px;
+  flex: 0 0 25%;
+}
+
+.content {
+  background-color: white;
+  flex: 1;
+}
+
+

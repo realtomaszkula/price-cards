@@ -1,7 +1,7 @@
 import { Component, OnInit, HostBinding } from '@angular/core';
 
 import { PriceCardState } from './../price-card/price-card.component';
-import { cardAnimation } from './price-cards.animations';
+import { cardsAnimation } from './price-cards.animations';
 
 @Component({
   selector: 'zet-price-cards',
@@ -13,7 +13,7 @@ import { cardAnimation } from './price-cards.animations';
     </zet-price-card>
   `,
   styleUrls: ['./price-cards.component.scss'],
-  animations: [cardAnimation],
+  animations: [cardsAnimation],
 })
 export class PriceCardsComponent implements OnInit {
   activeId: number | null = null;

@@ -8,7 +8,10 @@ export enum PriceCardState {
 @Component({
   selector: 'zet-price-card',
   template: `
-  <div> Card </div>
+  <div class="container">
+    <div class="title"></div>
+    <div class="content"></div>
+  </div>
   `,
   styleUrls: ['./price-card.component.scss'],
 })
