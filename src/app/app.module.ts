@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { PriceCardsComponent } from './price-cards/price-cards.component';
+import { PriceCardComponent } from './price-card/price-card.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PriceCardsComponent,
+    PriceCardComponent
   ],
   imports: [
     BrowserModule

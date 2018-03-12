@@ -1,0 +1,14 @@
+:host {
+  display: block;
+  background-color: tomato;
+  transition: all 0.6s ease-out;
+}
+
+
+:host(.dimmed) {
+  opacity: 0.5;
+}
+
+:host(.active) {
+  transform: scale(1.1);
+}

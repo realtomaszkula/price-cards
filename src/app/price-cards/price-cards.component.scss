@@ -1,0 +1,15 @@
+:host {
+  display: flex;
+  justify-content: space-between;
+
+  min-height: 300px;
+  min-width: 450px;
+}
+
+zet-price-card {
+  flex: 1 1 200px;
+}
+
+zet-price-card + zet-price-card {
+  margin-left: 24px;
+}
